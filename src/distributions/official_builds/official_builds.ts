@@ -177,7 +177,7 @@ export default class OfficialBuilds extends BaseDistribution {
   }
 
   private getManifest(): Promise<tc.IToolRelease[]> {
-    core.debug('Getting manifest from actions/node-versions@main');
+    core.debug('Getting manifest from casa-vega/node-versions@main');
     return tc.getManifestFromRepo(
       'actions',
       'node-versions',
